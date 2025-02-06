@@ -136,6 +136,10 @@ nav a:hover {
     margin-left: 10px;
 }
 
+.src-filters:hover {
+    background-color: #DEEBFF;
+}
+
 .fa-info{
     border: thin solid #cccccc;
     border-radius: 50%;
@@ -158,6 +162,13 @@ nav a:hover {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.show-more-btn {
+    border: none;
+    background-color: none;
+    font-size: larger;
+    font-weight: 700;
 }
 
 /****** Populaires ***********/
@@ -206,6 +217,20 @@ nav a:hover {
 }
 
 /*******  Activités *********/
+.activites {
+    display: flex;
+    flex-direction: row;
+}
+
+.activites .card {
+    padding: 0;
+}
+
+.activites img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
 
 
 /******** Footer *********/
