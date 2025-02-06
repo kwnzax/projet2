@@ -83,8 +83,6 @@ nav a:hover {
 }
 
 /******* Recherche et filtres *******/
-
-
 .recherche {
     margin-top: 60px;
 } 
@@ -93,7 +91,6 @@ nav a:hover {
 .search-bar {
     display: flex;
     flex-direction: row;
-    height: 30px;
 }
 
 .position i {
@@ -112,7 +109,6 @@ nav a:hover {
 }
 
 .search-btn {
-    
     border: none;
     background-color: #0065FC;
     color: white;
@@ -123,6 +119,23 @@ nav a:hover {
 }
 
 /********* Filtres *********/
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.src-filters {
+    background-color: white;
+    border: 2px solid var(--main-bg-color);
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
 .fa-info{
     border: thin solid #cccccc;
     border-radius: 50%;
