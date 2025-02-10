@@ -210,7 +210,7 @@ nav a:hover {
 
 .show-more-btn {
     border: none;
-    background-color: none;
+    background-color: var(--main-bg-color);
     font-size: larger;
     font-weight: 700;
     margin-top: 30px;
