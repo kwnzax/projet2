@@ -176,12 +176,16 @@ nav a:hover {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    width: 100%;
 }
+.hebergement-cards a {
+    width: 30%;
+}
+
 
 .hebergement-cards .card {
     margin-top: 33px;
     height: 200px;
-    width: 240px;
 }
 
 .hebergement-cards img {
