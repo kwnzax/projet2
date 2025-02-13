@@ -375,9 +375,44 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites-card .card {
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0;
+    }
+    
+    nav a:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: 0;
+    }
+
+    .search-bar {
+        justify-content: center;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .hebergements div {
+        flex-direction: column;
+    }
+
+    .populaires div {
+        flex-direction: column;
+    }
+
+    .activites div {
+        flex-direction: column;
+    }
 }
