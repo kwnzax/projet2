@@ -88,7 +88,7 @@ nav a:hover {
     margin-top: 60px;
 } 
 
-.recherche h2 {
+.recherche h1 {
     padding-bottom: 10px;
 }
 
@@ -121,9 +121,6 @@ nav a:hover {
 
 .location:focus {
     outline: none;
-    &::-webkit-input-placeholder{
-        opacity: 0;
-    }
 }
 
 ::placeholder {
@@ -151,6 +148,10 @@ nav a:hover {
     align-items: center;
     gap: 10px;
     padding-bottom: 30px;
+}
+
+.filters h2 {
+    font-size: 1.2em;
 }
 
 .src-filters {
@@ -439,7 +440,7 @@ footer {
     .location {
         text-align: left;
         padding-left: 20px;
-        padding-right: 10px;
+        width: 100%;
     }
 
     .search-btn {
@@ -447,8 +448,6 @@ footer {
     }
 
     .search-bar button {
-        position: relative;
-        right: 10px;
         display: flex;
         border: none;
         background-color: #0065FC;
@@ -468,7 +467,7 @@ footer {
         flex-direction: column;
     }
 
-    .filters h3 {
+    .filters h2 {
         width: 100%;
     }
 
